@@ -57,7 +57,7 @@
 비빔을 사용하고 싶으시다구요?
 파이썬으로 작성된 구현체인 [PyBibim](https://github.com/bibim-lang/pybibim)로 빠르게 시작하세요.
 
-설치하기 귀찮으시다면 [PyBibim live demo](http://bibim-lang.github.io/pybibim-demo/)를 통해 웹 브라우저에서 바로 사용해보세요.
+설치하기 귀찮으시다면 [PyBibim Live Demo](http://bibim-lang.github.io/pybibim-demo/)를 통해 웹 브라우저에서 바로 사용해보세요.
 
 ## 도보시오
 
