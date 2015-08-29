@@ -63,6 +63,6 @@
 
 ## 도보시오
 
-- 비빔을 처음 접해보신다면 [튜토리얼](tutorial.md)을 읽어보세요.
-- 비빔의 문법을 더 자세히 알고싶다면 [문법](grammars.md)을 읽어보세요.
-- 비빔으로 작성한 프로그램들의 예제를 보고 싶다면 [예제](examples.md)를 읽어보세요.
+- 비빔을 처음 접해보신다면 [튜토리얼](https://github.com/bibim-lang/bibim-lang.github.io/blob/master/tutorial.md)을 읽어보세요.
+- 비빔의 문법을 더 자세히 알고싶다면 [문법](https://github.com/bibim-lang/bibim-lang.github.io/blob/master/grammars.md)을 읽어보세요.
+- 비빔으로 작성한 프로그램들의 예제를 보고 싶다면 [예제](https://github.com/bibim-lang/bibim-lang.github.io/blob/master/examples.md)를 읽어보세요.
