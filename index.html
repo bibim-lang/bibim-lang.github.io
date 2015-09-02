@@ -1,37 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <title>Bibim by bibim-lang</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Bibim - 국수 한 그릇으로 완성되는 프로그래밍 언어</title>
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
-
   <body>
-    <div id="container">
-      <div class="inner">
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/bibim-lang">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
 
-        <header>
-          <img src="https://github.com/bibim-lang/bibim-lang.github.io/raw/master/logo.png" alt="Bibim logo">
-          <h2>국수 한 그릇으로 완성되는 프로그래밍 언어</h2>
-        </header>
+    <div class="wrapper">
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/bibim-lang" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+      <section>
+        <div id="title">
+          <img src="https://github.com/bibim-lang/bibim-lang.github.io/raw/master/logo_white.png" alt="Bibim logo">
+          <p>국수 한 그릇으로 완성되는 프로그래밍 언어</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/bibim-lang">bibim-lang</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
 
-        <hr>
-
-        <section id="main_content">
-
-<p>비빔은 여러분의 두뇌를 즐겁게 만들어 줄 새로운 프로그래밍 언어입니다.
-기존에 사용했던 많은 프로그래밍 언어의 단점을 보완하고, 더 좋은 코드를 작성할 수 있도록 도와주는 좋은 친구이기도 합니다.</p>
+        <p>비빔은 여러분의 두뇌를 즐겁게 만들어 줄 새로운 프로그래밍 언어입니다. 기존에 사용했던 많은 프로그래밍 언어의 단점을 보완하고, 더 좋은 코드를 작성할 수 있도록 도와주는 좋은 친구이기도 합니다.</p>
 
 <h2>
 <a id="비빔의-장점" class="anchor" href="#%EB%B9%84%EB%B9%94%EC%9D%98-%EC%9E%A5%EC%A0%90" aria-hidden="true"><span class="octicon octicon-link"></span></a>비빔의 장점</h2>
@@ -42,37 +46,48 @@
 
 <p><a href="https://ko.wikipedia.org/wiki/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90">부동소수점</a>? 그게 뭐죠? 먹는건가요?</p>
 
-<p>비빔에서는 유리수를 손실 없이 다룹니다.
-1/1000을 1000번 더하면 정확히 1이 되어야 합니다.</p>
+<p>비빔에서는 유리수를 손실 없이 다룹니다.</p>
+
+<p>1/1000을 1000번 더하면 정확히 1이 되어야 합니다.</p>
 </li>
 <li>
-<p>유니코드(UTF-8) 사용</p>
+<p>느긋한 오류 처리</p>
 
-<p>비빔은 기본적으로 소스코드와 입출력 모두 UTF-8을 사용합니다.
-<a href="https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD%EC%A0%95%EB%B3%B4%EA%B5%90%ED%99%98%ED%91%9C%EC%A4%80%EB%B6%80%ED%98%B8">미국정보교환표준부호</a>는 이제 그만 놓아줍시다.</p>
+<p>비빔은 정말로 중요한 문제가 일어나지 않는 이상 오류를 발생시키면서 프로그램을 종료하지 않습니다.</p>
+
+<p>이는 <a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EC%99%80_%EC%84%AC">예외 처리를 하지 못하면 안달복달하는 어떤 섬</a>에 비해 아주 편안합니다.</p>
 </li>
 <li>
 <p>아주 손쉬운 시분할 처리</p>
 
-<p>비빔의 코드는 순차적으로 실행되지 않습니다.
-이는 당신이 원하는대로 코드의 이곳 저곳을 누비며 실행되는 프로그램을 작성할 때에 큰 도움이 됩니다.</p>
+<p>비빔의 코드는 순차적으로 실행되지 않습니다.</p>
+
+<p>이는 당신이 원하는대로 코드의 이곳 저곳을 누비며 실행되는 프로그램을 작성할 때에 큰 도움이 됩니다.</p>
 </li>
 <li>
 <p>들여쓰기를 강제하지 않음</p>
 
-<p><a href="https://ko.wikipedia.org/wiki/%ED%94%BC%ED%86%A4">어떤 큰 뱀</a>과는 달리, 비빔은 사용자에게 들여쓰기를 강제하지 않습니다.
-사실, 더 정확히는 코드 내부의 공백 문자를 모두 무시합니다.</p>
+<p><a href="https://ko.wikipedia.org/wiki/%ED%94%BC%ED%86%A4">어떤 큰 뱀</a>과는 달리, 비빔은 사용자에게 들여쓰기를 강제하지 않습니다.</p>
 
-<p>따라서 비빔을 사용하면 여러분이 원하는 어떠한 형태로도 코드를 작성할 수 있습니다.
-만약 당신이 코드로 예술 작품을 만들고 싶으시다면 지금 바로 비빔을 사용하세요!</p>
+<p>사실, 더 정확히는 코드 내부의 공백 문자를 모두 무시합니다.</p>
+
+<p>따라서 비빔을 사용하면 여러분이 원하는 어떠한 형태로도 코드를 작성할 수 있습니다.</p>
+
+<p>만약 당신이 코드로 예술 작품을 만들고 싶으시다면 지금 바로 비빔을 사용하세요!</p>
+</li>
+<li>
+<p>유니코드(UTF-8) 사용</p>
+
+<p>비빔은 기본적으로 소스코드와 입출력 모두 UTF-8을 사용합니다.</p>
+
+<p><a href="https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD%EC%A0%95%EB%B3%B4%EA%B5%90%ED%99%98%ED%91%9C%EC%A4%80%EB%B6%80%ED%98%B8">미국정보교환표준부호</a>는 이제 그만 놓아줍시다.</p>
 </li>
 </ul>
 
 <h2>
 <a id="hello-world" class="anchor" href="#hello-world" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hello world</h2>
 
-<p>새로운 프로그래밍 언어를 만나면 문법은 몰라도 Hello world 코드는 꼭 봐야죠.
-아래에 비빔으로 작성된 Hello world 코드가 있습니다.</p>
+<p>새로운 프로그래밍 언어를 만나면 문법은 몰라도 Hello world 코드는 꼭 봐야죠. 아래에 비빔으로 작성된 Hello world 코드가 있습니다.</p>
 
 <pre><code>{
     [0; @:1 = {
@@ -95,8 +110,7 @@
 <h2>
 <a id="사용하기" class="anchor" href="#%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>사용하기</h2>
 
-<p>비빔을 사용하고 싶으시다구요?
-파이썬으로 작성된 구현체인 <a href="https://github.com/bibim-lang/pybibim">PyBibim</a>로 빠르게 시작하세요.</p>
+<p>비빔을 사용하고 싶으시다구요? 파이썬으로 작성된 구현체인 <a href="https://github.com/bibim-lang/pybibim">PyBibim</a>로 빠르게 시작하세요.</p>
 
 <p>설치하기 귀찮으시다면 <a href="http://bibim-lang.github.io/pybibim-demo/">PyBibim Live Demo</a>를 통해 웹 브라우저에서 바로 사용해보세요.</p>
 
@@ -108,14 +122,20 @@
 <li>비빔의 문법을 더 자세히 알고싶다면 <a href="https://github.com/bibim-lang/bibim-lang.github.io/blob/master/grammars.md">문법</a>을 읽어보세요.</li>
 <li>비빔으로 작성한 프로그램들의 예제를 보고 싶다면 <a href="https://github.com/bibim-lang/bibim-lang.github.io/blob/master/examples.md">예제</a>를 읽어보세요.</li>
 </ul>
-        </section>
+      </section>
 
-        <footer>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-
-      </div>
     </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-67086407-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
   </body>
 </html>
