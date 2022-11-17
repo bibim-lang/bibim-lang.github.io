@@ -12,9 +12,9 @@
 혹시 자유롭게 구사할 수 있는 프로그래밍 언어가 없으신가요? 그렇다면, [파이썬](https://www.python.org/)을 배워보세요! 비록 비빔의 철학과 상반되는 언어지만 아주 좋은 언어입니다.
 
 ### 주요 링크
-혹시 비빔 코드를 실행하고 싶은데, 구현체가 없나요?<br>파이썬으로 작성된 구현체인 [PyBibim](https://github.com/bibim-lang/pybibim)을 사용해보세요.
+혹시 비빔 코드를 실행하고 싶은데, 구현체가 없나요?<br>Rust로 작성된 구현체인 [RustBibim](https://github.com/bibim-lang/rustbibim)을 사용해보세요.
 
-구현체를 설치할만한 환경이 안되신다구요?<br>[PyBibim Live Demo](http://bibim-lang.github.io/pybibim-demo/)를 통해 웹 브라우저에서 바로 사용해보세요.
+구현체를 설치할만한 환경이 안되신다구요?<br>[RustBibim Web Demo](https://rustbibim.update.sh/)를 통해 웹 브라우저에서 바로 사용해보세요.
 
 비빔 문법을 더 자세히 알고싶으신가요?<br>[문법](https://github.com/bibim-lang/bibim-lang.github.io/blob/master/grammars.md) 문서를 읽어보세요.
 
